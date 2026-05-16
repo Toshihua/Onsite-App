@@ -1,8 +1,27 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Client Portfolio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div style="background:rgba(255,255,255,0.15);border-radius:20px;padding:30px;
+    width:90%;max-width:600px;text-align:center;backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.3);
+    box-shadow:0 4px 20px rgba(0,0,0,0.3);color:#fff;">
+    
+    <h1 style="font-size:clamp(1.5rem, 4vw, 2.2rem);margin-bottom:20px;font-weight:600;">
+        Welcome to Joshua’s Client Portfolio
+    </h1>
+    
+    <p style="font-size:clamp(1rem, 2.5vw, 1.1rem);line-height:1.8;margin-bottom:30px;">
+        Hello, there! I am <strong>Joshua Tanawan</strong>, a BSIT 3rd Year Student from the Polytechnic University of the Philippines - Mabini Campus, and I am a Freelance Web Designer using Figma
+    </p>
+    
+    <a href="https://www.facebook.com/JoshuaCaliosTanawan"
+           target="_blank"
+           style="display:inline-block;padding:12px 28px;border-radius:30px;
+        background:linear-gradient(135deg,#ff4b5c,#ff6b81);color:#fff;
+        text-decoration:none;font-weight:bold;transition:all 0.3s ease;"
+           onmouseover="this.style.transform='scale(1.05)'; this.style.background='linear-gradient(135deg,#ff6b81,#ff4b5c)';"
+           onmouseout="this.style.transform='scale(1)'; this.style.background='linear-gradient(135deg,#ff4b5c,#ff6b81)';">
+        Contact Me Here
+    </a>
 </div>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Onsite_App.Models.Entities;
+using Microsoft.Identity.Client;
 
 namespace Onsite_App.Data
 {

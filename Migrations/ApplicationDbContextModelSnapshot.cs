@@ -36,7 +36,7 @@ namespace Onsite_App.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Phone")
+                    b.Property<string>("Project")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
